@@ -22,3 +22,10 @@ const sortByLength = arr => arr.sort((a, b) => a.length - b.length);
 
 console.log(sortByLength(['Google', 'Apple', 'Microsoft']));
 console.log(sortByLength(['Leonardo', 'Michelangelo', 'Raphael', 'Donatello']));
+
+/*
+ * EXPLANATION:
+ * we sort the param arr using .sort() method. We pass a comparison function/method
+ * to .sort() method, where it takes 2 elements (a, b) as arguments, and returns
+ * the difference of their lengths.
+ */
