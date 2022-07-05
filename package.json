@@ -2,5 +2,11 @@
   "name": "100-coding-js-challenges",
   "version": "1.0.0",
   "description": "100-coding-js-challenges",
-  "author": "Olimpiu Seulean"
+  "author": "Olimpiu Seulean",
+  "scripts": {
+    "lint": "eslint . --ext .js --fix"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0"
+  }
 }

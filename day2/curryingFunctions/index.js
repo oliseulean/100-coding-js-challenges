@@ -22,7 +22,7 @@
  */
 
 
-const multiply = (arr, x) => (x) => arr.map(e => e * x);
+const multiply = (arr) => (x) => arr.map(e => e * x);
 
 console.log(multiply([1, 2, 3])(2));
 console.log(multiply([4, 5, 6])(10));

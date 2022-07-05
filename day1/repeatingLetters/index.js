@@ -45,8 +45,8 @@ const doubleChar2 = (str) => {
 }
 
 console.log('--SOLUTION 2--');
-console.log(doubleChar('Hello World!'));
-console.log(doubleChar('1234!_ '));
+console.log(doubleChar2('Hello World!'));
+console.log(doubleChar2('1234!_ '));
 
 /*
  *
@@ -69,5 +69,5 @@ const doubleChar3 = (str) => {
 }
 
 console.log('--SOLUTION 3--');
-console.log(doubleChar('Hello World!'));
-console.log(doubleChar('1234!_ '));
+console.log(doubleChar3('Hello World!'));
+console.log(doubleChar3('1234!_ '));
