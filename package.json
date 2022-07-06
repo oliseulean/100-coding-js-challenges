@@ -7,6 +7,6 @@
     "lint": "eslint . --ext .js --fix"
   },
   "devDependencies": {
-    "eslint": "^8.17.0"
+    "eslint": "^8.19.0"
   }
 }
