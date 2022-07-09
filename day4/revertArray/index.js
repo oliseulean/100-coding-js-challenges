@@ -20,7 +20,9 @@
 
 const invertArray = arr => {
   for (let index = 0; index < arr.length; index++) {
-    arr[index] = arr[index] * -1;
+    if (arr[index] !== 0) {
+      arr[index] = arr[index] * -1;
+    }
   }
   return arr;
 };
@@ -36,7 +38,13 @@ console.log('-----------');
  *
  */
 
-const invertArray2 = arr => arr.map(elem => (elem = elem * -1));
+const invertArray2 = arr => {
+  const invertNewArray = arr.map(elem => {
+    if (elem === 0) return 0;
+    return (elem = elem * -1);
+  });
+  return invertNewArray;
+};
 
 console.log(invertArray2([1, 2, 3, 4, 5]));
 console.log(invertArray2([0]));
