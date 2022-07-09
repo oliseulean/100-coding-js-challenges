@@ -32,14 +32,14 @@ console.log('-----------');
  *
  */
 
-const reverse2 = (arr) => {
+const reverse2 = arr => {
   let i = 0;
   while (i < arr.length - 1) {
     arr.splice(i, 0, arr.pop());
     i++;
   }
   return arr;
-}
+};
 
 console.log(reverse2([1, 2, 3, 4]));
 console.log(reverse2([9, 9, 2, 3, 4]));
